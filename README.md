@@ -49,7 +49,7 @@ This is a **port-based local network version** of the AI LaunchKit that runs com
 
 ```bash
 # Clone and install in one command
-git clone https://github.com/heinrichhermann/ai-launchkit-local && cd ai-launchkit-local && sudo bash ./scripts/install_local.sh
+git clone https://github.com/jag787/ai-launchkit-local && cd ai-launchkit-local && sudo bash ./scripts/install_local.sh
 ```
 
 **Installation time:** 10-15 minutes (plus optional n8n workflows import)
