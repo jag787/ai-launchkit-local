@@ -142,7 +142,7 @@ python3 -c "import bcrypt" 2>/dev/null || {
 # Set local network configuration (no domain prompts)
 # Preserve existing SERVER_IP if present, otherwise default to 127.0.0.1
 SERVER_IP="${existing_env_vars[SERVER_IP]:-127.0.0.1}"
-USER_EMAIL="admin@localhost"  # Default email for local setup
+USER_EMAIL="admin@localhost.srv"  # Default email for local setup
 
 log_info "Configuring for local network deployment..."
 log_info "Server IP: $SERVER_IP (preserved from existing .env or default)"
