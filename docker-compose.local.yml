@@ -425,7 +425,7 @@ services:
     environment:
       - CLI_ARGS=--listen 0.0.0.0 --cpu
     volumes:
-      - comfyui_data:/home/runner
+      - ./comfyui_data:/home/runner
     healthcheck:
       test: ["CMD", "wget", "-qO", "/dev/null", "http://localhost:8188"]
       interval: 10s
@@ -442,7 +442,7 @@ services:
     environment:
       - CLI_ARGS=--listen 0.0.0.0
     volumes:
-      - comfyui_data:/home/runner
+      - ./comfyui_data:/home/runner
     deploy:
       resources:
         reservations:
